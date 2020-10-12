@@ -27,13 +27,13 @@ export default function Home() {
         >
           <p>{data.overview}</p>
 
-          <a href={data.redfin} target="_blank" className="inline-block pr-8 mt-8">
+          <a href={data.redfin} target="_blank" rel="noopener noreferrer" className="inline-block pr-8 mt-8">
             Redfin <span className="inline-block transform -rotate-45">&rarr;</span>
           </a>
-          <a href={data.zillow} target="_blank" className="inline-block pr-8 mt-8">
+          <a href={data.zillow} target="_blank" rel="noopener noreferrer" className="inline-block pr-8 mt-8">
             Zillow <span className="inline-block transform -rotate-45">&rarr;</span>
           </a>
-          <a href={data.realtor} target="_blank" className="inline-block mt-8">
+          <a href={data.realtor} target="_blank" rel="noopener noreferrer" className="inline-block mt-8">
             Realtor <span className="inline-block transform -rotate-45">&rarr;</span>
           </a>
 
