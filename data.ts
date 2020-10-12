@@ -16,9 +16,9 @@ export default {
     lot: '4,356'
   },
   openHouse: {
-    show: false,
+    show: true,
     day: 'Saturday, October 17',
-    time: '12:00 PM - 2:00 PM'
+    time: '12:30 PM - 2:30 PM'
   },
   walkthrough: {
     video: '/assets/video-walkthrough.mp4',
