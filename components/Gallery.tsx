@@ -13,7 +13,7 @@ export default function Gallery({ anchor }) {
       >
         {Array.from(Array(24).keys()).map((_, index) => (
           <div key={index}>
-            <img src={`/assets/image-${index}.jpg`} />
+            <img src={`/assets/image-${index}.jpg`} alt={`gallery image ${(index + 1)}`}/>
           </div>
         ))}
       </Carousel>

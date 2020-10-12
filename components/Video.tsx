@@ -3,6 +3,7 @@ export default function Video({ anchor, videoUrl }) {
     <section id={anchor} className="max-w-screen-lg mx-auto">
       <div className="relative overflow-hidden pb-2/3">
         <iframe
+          title="Video walkthrough of property"
           className="absolute inset-0 h-full w-full object-cover"
           src={videoUrl}
           frameBorder="0"
